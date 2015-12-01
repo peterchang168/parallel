@@ -8,6 +8,7 @@ dependencies:
 
 test:
   override:
+    - ./test/unittest_agent1.sh ${PWD}
     - ./test/unittest_agent2.sh ${PWD}
     #- cp /tmp/new_domain_redis_agent_test/report/* $CIRCLE_ARTIFACTS/
     #- mkdir -p /tmp/new_domain_redis_agent_test
