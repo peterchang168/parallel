@@ -13,8 +13,8 @@ test:
     - /bin/bash:
         parallel: true
         files:
-          - ./test/unittest_agent1.sh 
-          - ./test/unittest_agent2.sh 
+          - test/unittest_agent1.sh 
+          - test/unittest_agent2.sh 
     #- cp /tmp/new_domain_redis_agent_test/report/* $CIRCLE_ARTIFACTS/
     #- mkdir -p /tmp/new_domain_redis_agent_test
     #- cp bin/new_domain_redis_agent.py /tmp/new_domain_redis_agent_test
